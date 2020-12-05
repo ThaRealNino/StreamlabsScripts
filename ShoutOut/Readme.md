@@ -19,9 +19,9 @@ The ShoutOut-File has the following structure:
 <twitch-username>|<custom message>
 ``` 
 
-For obvious reasons, neither the username nor the message may contain a pipe-symbol (|).
+For obvious reasons, neither the username nor the message may contain a pipe-symbol |.
 
-An example configuration could look like this (ignore the syntax highlighting):
+An example configuration could look like this:
 
 ```
 tharealnino|Best streamer in the world, check him out: https://twitch.tv/tharealnino
