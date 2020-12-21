@@ -1,0 +1,17 @@
+{
+  "output_file": "shoutout_settings.json",
+  "shoutout_file": {
+    "type": "textbox",
+    "value": "C:\\exapmple.txt",
+    "label": "ShoutOut File",
+    "tooltip": "Where are your shoutouts saved?",
+    "group": "Settings"
+  },
+  "dontKnow": {
+    "type": "textbox",
+    "value": "I don't know that Person good enough for a shoutout NotLikeThis Maybe next time?",
+    "label": "Unknown",
+    "tooltip": "Message if the person is not in your streamer list",
+    "group": "Settings"
+  }
+}

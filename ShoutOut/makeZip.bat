@@ -1,0 +1,2 @@
+del ShoutOut_StreamlabsSystem.zip
+7z.exe a ShoutOut_StreamlabsSystem.zip ShoutOut
