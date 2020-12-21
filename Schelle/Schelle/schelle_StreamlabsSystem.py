@@ -55,7 +55,7 @@ def Execute(data):
         
     sendMessage(message)
     
-    Parent.AddUserCooldown(ScriptName, Command, data.User, 0)
+    Parent.AddUserCooldown(ScriptName, Command, data.User, 120)
     return
 
 def Tick():
