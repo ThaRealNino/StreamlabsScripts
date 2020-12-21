@@ -4,7 +4,7 @@ ShoutOut is a script to add more control to shoutouts. Create a list of streamer
 
 ## Installation
 
-Create a zip file only containing the UI_Config.json and the ShoutOut_StreamlabsSystem.py, or use the zip file provided. Add the zip file in your bot under Scripts->Import. Note: you need to connect your bots aswell as your streaming account to use scripts within the bot.
+Create a zip file containing the ShoutOut folder including all subfiles, or use the zip file provided. Add the zip file in your bot under Scripts->Import. Note: you need to connect your bots aswell as your streaming account to use scripts within the bot.
 
 ## Usage
 
