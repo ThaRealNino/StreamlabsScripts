@@ -1,0 +1,10 @@
+{
+  "output_file": "schelle_settings.json",
+  "shallPickRandom": {
+    "type": "checkbox",
+    "value": true,
+    "label": "Zufall?",
+    "tooltip": "Wähle einen zufälligen aktiven User, wenn keiner ge@dded wurde.",
+    "group": "Allgemein"
+  }
+}

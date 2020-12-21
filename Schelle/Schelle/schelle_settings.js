@@ -1,0 +1,3 @@
+﻿var settings = {
+  "shallPickRandom": true
+};
