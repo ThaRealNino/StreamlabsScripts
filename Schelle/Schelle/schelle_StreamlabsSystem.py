@@ -42,10 +42,11 @@ def Execute(data):
         sendMessage("@" + data.User + ": Dein Arm ist für noch genau " + str(remainingTime) + " Sekunden zu schwach für eine weitere Schelle")
         return
         
+    chance = Parent.GetRandom(0,len(Schelle) -1)
+        
     if "@" not in data.GetParam(1):
         if settings["shallPickRandom"] == True:
             receiver = "@" + Parent.GetDisplayName(Parent.GetRandomActiveUser()).lower()
-            chance = Parent.GetRandom(0,len(Schelle) -1)
             message = Schelle[chance].replace("{U2}", receiver).replace("{U1}", "@" + data.User)
         else:
             message = "@" + data.User + " ist zu doof zum Markieren. @" + data.User + " kassiert dafür selber eine Schelle."
